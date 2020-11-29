@@ -1,0 +1,335 @@
+#welcomeBody{
+   background: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-015.jpg);
+   background-size: cover;
+   overflow: hidden;
+}
+#mainHead
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 75px;
+    color: antiquewhite;
+    margin: 5% 0% 0% 29% ;
+}
+.info
+{
+    width: 40%;
+    text-align: -webkit-center;
+    margin: 5% 0% 0% 31%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    
+    overflow: hidden;
+      
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 3s steps(29) 1s 1 normal both,
+             blinkTextCursor 500ms steps(29) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 20em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+#enterSite
+{
+    margin-top: 20%;
+    margin-left: 48%;
+    border-radius: 0%;
+    background: #dc9566;
+    border: 2px solid #dc9556   ;
+}
+#enterSite:hover
+{
+    opacity: 90%;
+}
+#indexBody
+{
+    background: linear-gradient(to right,#537895, #09203f);
+    overflow: hidden;
+    background-size: cover;
+}
+#question
+{
+    width: 550px;
+    height: 570px;
+    border: 0px;
+    margin-top: 3%;
+    margin-left: -15%;
+}
+#superHead
+{
+    
+    font-family: 'Pacifico', cursive;
+    color: #efe;
+
+}
+#linkHead
+{
+    font-size: 28px;
+    text-decoration: none;
+    color: inherit;
+}
+#superHead2
+{
+    
+    font-family: 'Pacifico', cursive;
+    color: #efe;
+
+}
+#addHeading
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    margin-left: 35%;
+    color: dimgray;
+}
+#linkHead2
+{
+    font-size: 28px;
+    text-decoration: none;
+    color: inherit;
+}
+#linkHead:hover
+{
+    font-size: 30px;
+}
+.btn2
+{
+    border-radius: 0% !important;
+    background: #dc9556 !important;
+    border: 2px solid #dc9556   !important;
+    margin-top: 80% !important;
+    margin-left: 3%;
+    padding: 2%;
+    
+}
+#heading2
+{
+    color: antiquewhite;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    margin-top: -25%;
+}
+.btn4
+{
+    margin: 2% 0% 0% 70%;
+    background: #dc9556 !important;
+    border: 2px solid #dc9556 !important;
+    border-radius: 0px !important;
+}
+#emailHelp
+{
+    color: white;
+}
+.form-control
+{
+    background: transparent !important;
+    border: 1 px solid black !important;
+}
+#abcd, #Email1, #confmess
+{
+    border: 1px solid black;
+    color: white;
+}
+.form-group
+{
+    width: 100%;
+    padding-top: 2%;
+}
+.forWhom
+{
+    font-size: 20px;
+    color: #09203f;
+    width: 100%;
+    padding: 1%!important;
+    font-family: 'LEMONMILK', sans-serif;
+}
+.messages
+{
+    width: 30%;
+    background: linear-gradient(to right, #ddd6f3, #faaca8);
+    height: auto;
+    color: black;
+    text-align: justify;
+    margin: 1.5%;
+    border-radius: 10px;
+    padding: 2%;
+}
+.mystyle
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+#addBody
+{
+    background-image: linear-gradient(to right, #93a5cf, #e4efe9);
+}
+.forms
+{
+    max-width: 50%;
+    margin: 5% 0% 0% 25%;
+}
+#viewBody
+{
+    background: linear-gradient(to right, #21D4FD, #B721FF );
+    overflow: hidden;
+}
+.hide
+{
+    display: none !important;
+}
+.btn5
+{
+    margin-top: 5%;
+    margin-left: 45%;
+    background: #dc9556 !important;
+    border-radius: 0px !important;
+    border: 2px solid #dc9556 !important;
+    
+}
+@media only screen and (max-width:600px)
+{
+    #welcomeBody{
+        background: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-015.jpg);
+        width: auto;
+        height: auto;
+        overflow-y: scroll;
+     }
+     .forWhom
+{
+    font-size: 20px;
+    color: #09203f;
+    width: 100%;
+    padding: 1%!important;
+    font-family: 'LEMONMILK', sans-serif;
+}
+.messages
+{
+    width: auto;
+    background: linear-gradient(to right, #ddd6f3, #faaca8);
+    height: auto;
+    color: black;
+    text-align: justify;
+    margin: 6% 1.5%;
+    border-radius: 10px;
+    padding: 2%;
+}
+.mystyle
+{
+   display: block;
+    padding: 2%;
+}
+     .btn5
+{
+    margin-top: 5%;
+    margin-left: 30%;
+    background: #dc9556 !important;
+    border-radius: 0px !important;
+    border: 2px solid #dc9556 !important;
+    
+}
+     #mainHead
+{
+    font-family: 'Amatic SC', cursive;
+    font-size: 37px;
+    color: antiquewhite;
+    margin: 5% 0% 0% 0%;
+    padding: 2% 3%;
+}
+#addHeading
+{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    margin-top: 1%;
+
+    margin-left: 5%;
+    color: dimgray;
+}
+.info
+{
+    width: 80%;
+    text-align: -webkit-center;
+    margin: 10% 0% 0% 8%;
+    color: #fff;
+}
+.form-group
+{
+    width: 100%;
+    padding-top: 2%;
+}
+
+
+.forms
+{
+    max-width: 60%;
+    margin: 10% 0% 0% 20%;
+    
+}
+.btn2
+{
+    border-radius: 0% !important;
+    background: #dc9566 !important;
+    border: 2px solid #dc9556   !important;
+    margin-top: 25% !important;
+    margin-left: 2%;
+    padding: 2%;
+
+    
+}
+.btn4{
+    margin: 2% 0% 0% 58%;
+    background: #dc9556 !important;
+    border: 2px solid #dc9556 !important
+    ;
+    border-radius: 0px;
+}
+#superHead
+{
+    font-family: 'Pacifico', cursive;
+    color: bisque;
+    padding: 1%;
+}
+#question
+{
+    width: 322px;
+    height: 330px;
+    border: 0px;
+    margin-left: 2%;
+}
+#heading2
+{
+    color: antiquewhite;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    margin-top: -5%;
+    
+    
+}
+#enterSite
+{
+   
+    margin-top: 60%;
+    margin-left: 38%;
+    border-radius: 0%;
+    background: #dc9566;
+    border: 2px solid #dc9556   ;
+}
+#enterSite:hover
+{
+    opacity: 90%;
+}
+}
